@@ -28,14 +28,17 @@ void setcolor(String c) {
     this.Color = c;
 }
 
-    public String GET_COLOR() {
-return this.Color;
-    }
+public String GET_COLOR() {
+    return this.Color;
+}
 
-    public int hasSameColor( cat  cat )
-    {
-if (Color==cat.Color) {return   1;}else{return 0;}
+public int hasSameColor( cat  cat ) {
+    if(Color==cat.Color) {
+        return   1;
+    }else {
+        return 0;
     }
+}
 
 String name( )
 {
